@@ -1,6 +1,6 @@
 # API Golden Raspberry Awards
 
-Esta é uma API RESTful desenvolvida como solução para o teste de back-end da Texo IT. A aplicação identifica os produtores de filmes com o maior e o menor intervalo entre prêmios consecutivos na categoria "Pior Filme" do Golden Raspberry Awards.
+Esta é uma API RESTful desenvolvida como solução para o teste de back-end . A aplicação identifica os produtores de filmes com o maior e o menor intervalo entre prêmios consecutivos na categoria "Pior Filme" do Golden Raspberry Awards.
 
 ## Tecnologias Utilizadas
 
@@ -24,12 +24,12 @@ Esta é uma API RESTful desenvolvida como solução para o teste de back-end da 
 
 1.  Clone o repositório para a sua máquina local:
     ```bash
-    git clone <url-do-seu-repositorio>
+    git clone https://github.com/klzchz/gra.git
     ```
 
 2.  Navegue até a pasta do projeto:
     ```bash
-    cd golden-raspberry-awards
+    cd  gra
     ```
 
 3.  Instale todas as dependências necessárias:
@@ -127,7 +127,7 @@ Permite repopular o banco de dados enviando um novo arquivo CSV. Isso apaga todo
 -   **[✓] Ler arquivo CSV:** A aplicação lê o CSV na inicialização e também disponibiliza um endpoint `POST` para upload.
 -   **[✓] Requisitos da API:** O endpoint `GET /awards-interval` retorna os produtores com o maior e menor intervalo, conforme o formato especificado.
 -   **[✓] Nível 2 de Maturidade de Richardson:** A API utiliza verbos HTTP (`GET`, `POST`), recursos nominais (`/awards-interval`) e códigos de status (`200`, `201`, `400`, `500`).
--   **[✓] Testes de Integração:** Foram implementados somente testes de integração (`awards.test.ts`) que garantem a corretude da resposta da API.
+-   **[✓] Testes de Integração:** Foram implementados somente testes de integração (`awards.test.ts`) que garantem a  a resposta da API.
 -   **[✓] Banco de Dados Embarcado:** Utiliza SQLite, que não requer instalação externa. O banco de desenvolvimento é um arquivo e o de teste é em memória.
 -   **[✓] README:** Este arquivo contém as instruções para rodar o projeto e os testes.
 -   **[✓] Repositório Git:** O código-fonte está disponível em um repositório Git.
